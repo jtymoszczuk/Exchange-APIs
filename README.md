@@ -12,3 +12,10 @@ cp sample-.env .env
 ```
 
 In the .env add your Kraken api key and secret to interact with your kraken account remotely.
+
+## To Run
+``
+node index.js
+``
+
+Right now it jsut prints your bitcoin balance and bitcoin price.
