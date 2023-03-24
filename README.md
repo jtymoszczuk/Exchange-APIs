@@ -2,9 +2,7 @@
 
 Work-in-process 👷‍♂️
 
-Just playing with the kraken api to allow for faster deposit/withdrawals while also learning my way around github.
-
-In the .env add your Kraken api key and secret to interact with your kraken account remotely. Looking to add more to this and make it more interactive.
+Just playing with the kraken api to allow for faster deposit/withdrawals while also learning my way around github. I will be adding more exchanges and interactive commands to allow easier 1-click sweeping of funds from exchanges. 😄
 
 ## Setup
 ```
@@ -13,3 +11,4 @@ cd kraken-api-test
 cp sample-.env .env
 ```
 
+In the .env add your Kraken api key and secret to interact with your kraken account remotely.
