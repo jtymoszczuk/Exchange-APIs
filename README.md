@@ -8,7 +8,7 @@ In the .env add your Kraken api key and secret to interact with your kraken acco
 
 ## Setup
 ```
-git clone https://github.com/jtymoszczuk/kraken-api-test.git
+git clone https://github.com/jtymoszczuk/Exchange-APIs.git
 cd kraken-api-test
 cp sample-.env .env
 ```
