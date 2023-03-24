@@ -9,6 +9,8 @@ Just playing with the kraken api to allow for faster deposit/withdrawals while a
 git clone https://github.com/jtymoszczuk/Exchange-APIs.git
 cd kraken-api-test
 cp sample-.env .env
+# Edit your .env file with your api keys
+npm i
 ```
 
 In the .env add your Kraken api key and secret to interact with your kraken account remotely.
