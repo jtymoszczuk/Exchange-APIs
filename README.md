@@ -20,4 +20,4 @@ In the .env add your Kraken api key and secret to interact with your kraken acco
 node index.js
 ``
 
-Right now it jsut prints your bitcoin balance and bitcoin price.
+Right now it prints your bitcoin balance and bitcoin price.
