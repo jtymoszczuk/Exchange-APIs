@@ -1,5 +1,7 @@
 // require('dotenv').config()
-
+// instead of sending HTTP requests to a specific URL, 
+// this code uses a JavaScript library to create a WebSocket connection to the Kraken API server, 
+// and then sends API requests to that server through that connection.
 //declares apikey and api secret variables and pulls api key and secret form .env.
 require('dotenv').config();
 const apiKey = process.env.API_KEY;
