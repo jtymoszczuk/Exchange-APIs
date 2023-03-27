@@ -11,22 +11,17 @@ const apiSecret = process.env.API_SECRET;
 const KrakenClient = require('kraken-api');
 const kraken = new KrakenClient(apiKey, apiSecret);
 
-(async () => {
+async function getBitcoinBalance() {
     try {
-
-        // Get User Balance Info
         const balanceInfo = await kraken.api('Balance');
         const bitcoinBalance = Math.floor(balanceInfo.result.XXBT * 100000000); //displays in satoshis
-        //const bitcoinBalance = balanceInfo.result.XXBT; // displays with decimal.
         console.log('Bitcoin balance:', bitcoinBalance);
-
-
     } catch (err) {
         console.error(err);
     }
-})();
+}
 
-(async () => {
+async function getBitcoinPrice() {
     try {
 
         // Get Ticker Info
@@ -37,6 +32,8 @@ const kraken = new KrakenClient(apiKey, apiSecret);
     } catch (err) {
         console.error(err);
     }
-})();
+}
 
+getBitcoinBalance()
+getBitcoinPrice()
 
