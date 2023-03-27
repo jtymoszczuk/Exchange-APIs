@@ -33,6 +33,22 @@ async function getBitcoinPrice() {
         console.error(err);
     }
 }
+// Kraken doesnt have lightning api
+// async function createLightningInvoice() {
+//     try {
+//       // Generate Lightning invoice
+//       const invoice = await kraken.api('CreateInvoice', { 
+//         amount: '0.0001', // amount of Bitcoin to receive
+//         currency: 'XXBT',
+//         expiry: '1800', // expiry time in seconds
+//         description: 'Payment for service' // description of the payment
+//       });
+//       console.log('Lightning invoice:', invoice.result.invoice);
+//     } catch (err) {
+//       console.error(err);
+//     }
+//   }
+// createLightningInvoice()
 
 getBitcoinBalance()
 getBitcoinPrice()
